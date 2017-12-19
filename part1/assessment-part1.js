@@ -83,6 +83,23 @@ var fairyTale5 = ["daBears", "papaBear", "mamaBear", "babyBear"];
 
 // CODE HERE...
 
+function Vehicle(){
+  this.gasRemaining = 100;
+}
+
+Vehicle.prototype.drive = function (){
+  this.gasRemaining -= 25;
+}
+
+var charger = new Vehicle()
+
+var mustang = new Vehicle();
+
+charger.drive();
+
+mustang.drive()
+mustang.drive()
+
 
 // -----------------------------------------------------------------------------
 
